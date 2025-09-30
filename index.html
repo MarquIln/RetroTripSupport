@@ -297,12 +297,23 @@
     }
 
     .support li::before {
-      content: '🎮';
       position: absolute;
       left: 15px;
       top: 50%;
       transform: translateY(-50%);
       font-size: 1.2rem;
+    }
+
+    .support li:nth-child(1)::before {
+      content: '📧';
+    }
+
+    .support li:nth-child(2)::before {
+      content: '🐙';
+    }
+
+    .support li:nth-child(3)::before {
+      content: '🔒';
     }
 
     .support li {
@@ -516,6 +527,7 @@
       <ul>
         <li>Email: <a href="mailto:marcosraach.1@gmail.com">marcosraach.1@gmail.com</a></li>
         <li>GitHub: <a href="https://github.com/seuusuario/retrotrip-support" target="_blank">RetroTrip Support Repo</a></li>
+        <li>Privacy Policy: <a href="privacy-policy.html">Privacy Policy</a></li>
       </ul>
     </section>
   </div>
